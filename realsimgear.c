@@ -132,7 +132,7 @@ static float loop_callback(
       action(cmdref);
     }
 
-    lua_pop(L, 2);
+    lua_pop(L, 1);
   }
 
   lua_settop(L, 0);
